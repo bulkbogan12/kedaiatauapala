@@ -157,7 +157,8 @@ body {
   margin-bottom: 3rem;
 }
 
-.about h2 span {
+.about h2,
+.menu span {
   color: var(--primary);
 }
 
@@ -187,6 +188,20 @@ body {
   font-weight: 100;
   line-height: 1.6;
 }
+
+/*menu section*/
+.menu h2 {
+  margin-bottom: 1rem;
+}
+.menu p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
 /*media queries*/
 
 /* laptop */
