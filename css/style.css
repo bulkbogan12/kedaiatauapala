@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 2000px;
+  min-height: 3000px;
 }
 
 /*navbar*/
@@ -157,7 +157,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.about h2,
+.about h2 span,
 .menu span {
   color: var(--primary);
 }
@@ -197,9 +197,15 @@ body {
   text-align: center;
   max-width: 30rem;
   margin: auto;
-  font-size: 1.2rem;
-  font-weight: 100;
   line-height: 1.6;
+  font-weight: 100;
+}
+
+.menu .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
 }
 
 /*media queries*/
